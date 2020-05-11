@@ -46,13 +46,14 @@ header{
 .menu ul li{
     list-style: none;
     width: 200px;
-    height: 25px;
+    height: 30px;
     margin-left: -41px;   
     border: 1px solid #B71C1C;
     border-right: 0px;
     background: #4169E1;
     border-top-width: 0px;
-    font-size: 75%;
+    font-size: 80%;
+    font-family: Arial;
 }
 
 .menu ul li a{
@@ -63,8 +64,11 @@ header{
 
 .contenido {
     padding: 300%;
-    margin-top: -250%;
+    margin-top: -300%;
+    margin-left: -300px;
+    font-family: Arial;
 }
+
 .contenido .boton  {
     display: flex ;
     padding: 100px;
@@ -74,9 +78,40 @@ header{
 }
 
 .contenido div h1{
-    
-    width: 500px;
-    height: 50px;
-    margin-top: -200px;
+    width: 1400px;
+    height: 0px;
+    margin-top: -215px;
+    margin-left: -200px;
+    text-align: center;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
     size: 20px;
+    font-size: 200%
+}
+
+.imagenConfirmacion{
+    margin-left: 275px;
+    margin-top: 50px;
+}
+
+.boton{
+    margin-left: 300px;
+    margin-top: -50px;
+}
+
+#foto{
+    width: 300px;
+    height: 100px;
+    text-align: left; 
+    float: left;
+    margin-left: 650px;
+    margin-top: -10px;
+}
+
+#user{
+    float: left;
+    margin-left: -180px;
+    font-size: smaller;
+    font-family: Arial;
 }

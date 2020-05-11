@@ -1,4 +1,4 @@
-#principal {
+#principal{
     width: 1500px;
     height: 700px;
     margin: auto;
@@ -13,6 +13,21 @@ header {
     border-right: 0px;
 }
 
+#foto{
+    width: 300px;
+    height: 100px;
+    text-align: left; 
+    float: left;
+    margin-left: 650px;
+    margin-top: -10px;
+}
+#perfil{
+    width: 300px;
+    height: 100px;
+    margin-left: 730px;
+    margin-top: -500px;
+}
+
 #logo {
     width: 300px;
     height: 100px;
@@ -21,10 +36,9 @@ header {
 }
 
 
-#user {
+#user{
     float: left;
-    margin-left: 850px;
-    margin-top: 10px;
+    margin-left: -180px;
     font-size: smaller;
     font-family: Arial;
 }
@@ -52,16 +66,17 @@ header {
         margin-top: 0px;
     }
 
-        .menu ul li {
+        .menu ul li{
             list-style: none;
             width: 200px;
-            height: 25px;
-            margin-left: -41px;
+            height: 30px;
+            margin-left: -41px;   
             border: 1px solid #B71C1C;
             border-right: 0px;
             background: #4169E1;
             border-top-width: 0px;
-            font-size: 75%;
+            font-size: 80%;
+            font-family: Arial;
         }
 
             .menu ul li a {
@@ -71,18 +86,19 @@ header {
             }
 
 #status {
-    font-family: Verdana;
-    position: relative;
-    top: -600px;
-    left: 450px;
+    float: right;
+    margin-top: -600px;
+    margin-right: 400px;
+    font-family: Arial;
 }
 
 .contenido {
     position: relative;
-    top: -510px;
+    top: -400px;
     left: 300px;
     border: 1px solid #808080;
     width: 900px;
+    font-family: Arial;
 }
 
 input[type="search"] {
@@ -104,8 +120,10 @@ input[type="search"] {
         }
 
 table td {
-    border: 1px solid #808080;
-    padding: 15px;
+    border: 1px solid #000000;
+    padding: 12px;
+    text-align: center;
+    font-family: Arial;
 }
 
     table td:hover {
