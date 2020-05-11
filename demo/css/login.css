@@ -1,0 +1,30 @@
+#principal{
+    width: 1500px;
+    height: 700px;
+    margin: auto;
+}
+
+#logo{
+    margin-top: 130px;
+    margin-left: 550px;
+    text-align: left; 
+    float: left;
+}
+
+#datos{
+    float: right;
+    margin-top: -400px;
+    margin-right: 610px;  
+    font-family: Arial;
+}
+
+.entrar{
+    font-size: 120%;
+    margin-top: -280px;
+    margin-left: 1000px;
+}
+
+.entrar a{
+    font-size: 150%;
+    text-decoration: none;
+}
