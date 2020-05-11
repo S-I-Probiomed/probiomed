@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/reportevisita.css">
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="principal">
+            <header>
+                <div id="logo">
+                    <h2><img src="img/LogoP.png" width="350" height="70"></h2>
+                </div>
+                <div id="foto">
+                    <h2><img src="img/foto.jpeg" width="100" height="80"></h2>
+                </div>
+                <div id="user">
+                    <h2>Usuario: </h2>
+                    <h2>Puesto: </h2>
+                </div>
+            </header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="">INFORMACION DE USUARIO</a></li>
+                    <li><a href="">REPORTE DE VISITAS</a></li>
+                    <li><a href="">LISTADO DE MÉDICOS</a></li>
+                    <li><a href="">LISTADO DE FARMACIAS</a></li>
+                    <li><a href="">CATALOGO</a></li>
+                    <li><a href="">CONFIRMACION DE MATERIAL</a></li>
+                    <li><a href="">STATUS DE PEDIDO</a></li>
+                </ul>
+                <div class = "contenido">
+                    <div><h1>Reporte de Visita</h1></div>
+                    <div class="datos">
+                        <p>Fecha: <input type="date" id="start" name="trip-start" value="2019-05-11" min="2019-05-11" max="2019-12-31"></p>
+                        <p>Hora: <input type="time" name="hora"></p>
+                        <p>Acompañamiento: <select name="acompañamiento">
+                            <option value="1">Gerente</option> 
+                            <option value="2">Solo</option> 
+                        </select></p> 
+                        <p>Marca Promocionada: <select name="marcas_promocionada">
+                            <option value="1">Genoma Farma</option> 
+                            <option value="2">Concordia</option> 
+                            <option value="3">Alfabarma</option>
+                        </select></p>
+                        <p>Material entregado: <select name="materiales_entregados">
+                            <option value="1">Akira</option> 
+                            <option value="2">Neupax</option> 
+                            <option value="3">Desenfriol</option>
+                        </select></p>
+                        <p>Firma Electrónica: <textarea name="comentarios" rows="10" cols="40"></textarea></p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </body>
+</html>

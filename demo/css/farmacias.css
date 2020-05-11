@@ -1,0 +1,107 @@
+#principal{
+    width: 1500px;
+    height: 700px;
+    margin: auto;
+}
+
+header{
+    width: 1500px;
+    height: 100px;
+    border: 1px solid #B71C1C;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+
+#logo{
+    width: 300px;
+    height: 100px;
+    text-align: center; 
+    float: left;
+}
+
+#foto{
+    width: 300px;
+    height: 100px;
+    text-align: left; 
+    float: left;
+    margin-left: 650px;
+    margin-top: -10px;
+}
+
+#user{
+    float: left;
+    margin-left: -180px;
+    font-size: smaller;
+    font-family: Arial;
+}
+
+.menu{
+    width: 200px;
+    height: 597px;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    border: 1px solid #B71C1C;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+.menu ul{
+    margin-top: 0px;  
+}
+
+.menu ul li{
+    list-style: none;
+    width: 200px;
+    height: 25px;
+    margin-left: -41px;   
+    border: 1px solid #B71C1C;
+    border-right: 0px;
+    background: #4169E1;
+    border-top-width: 0px;
+    font-size: 75%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: #ffffff; 
+}
+
+.contenido div h1{
+    width: 1400px;
+    height: 0px;
+    margin-top: -150px;
+    size: 20px;
+}
+
+.contenido .busqueda{
+    margin-left: 300px;
+    margin-top: 50px;
+    size: 20px;
+    display: flex;
+}
+
+.contenido .busqueda input{
+    margin-left: 10px;
+    size: 20px;
+}
+
+.contenido .button{
+    margin-left: 320px;
+    margin-top: 10px;
+}
+
+.contenido .tabla{
+    margin-left: 320px;
+    margin-top: 10px;
+}
+
+.contenido .tabla table th{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+}

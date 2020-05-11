@@ -1,0 +1,19 @@
+[PROJECT]
+Target=p5.hex
+Processor_Text=PIC16F887
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+FileList=p5.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[p5.c]
+Type=4
+[mru-list]
+1=p5.c
+[Opened Files]
+1=p5.c
+2=
+[Units]
+Count=1
+1=p5 (main)

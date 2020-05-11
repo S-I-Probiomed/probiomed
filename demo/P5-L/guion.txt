@@ -1,0 +1,3 @@
+Modo: Especifica el divisor del reloj del oscilador
+Periodo: Determina el momento en el que el valor del reloj se resetea a 0
+Host escalar: Indica cuantos reset del timer se han producido antes de una interrupción
