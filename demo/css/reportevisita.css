@@ -75,6 +75,10 @@ header{
     font-family: Arial;
 }
 
+.contenido .button{
+    margin-left: 320px;
+    margin-top: 10px;
+}
 
 .contenido div h1{
     width: 1400px;
